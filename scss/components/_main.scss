@@ -1,0 +1,115 @@
+.main{
+    margin-bottom: 10px;
+    &__title{
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .cards{
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .card{
+            background: #FFF;
+            box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+            margin-bottom: 15px;
+            width: 263px;
+            padding: 20px;
+            .pics{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 55px;
+                .heart{
+                    align-self: flex-end;
+                }
+                .pic{
+                    margin-top: 38px;
+                }
+            }
+            .texts{
+                &__title{
+                    color: var(--text-color, #414141);
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                &__text{
+                    color: var(--text-color, #414141);
+                    font-family: Roboto;
+                    font-size: 11px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 6px;
+                    margin-bottom: 9px;
+                }
+                &__price{
+                    color: var(--text-color, #414141);
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                &__size{
+                    color: var(--text-color, #414141);
+                    font-family: Roboto;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 15px;
+                    margin-bottom: 8px;
+                }
+                .size{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 17px;
+                    .width__deep__height{
+                        .width__text__1{
+                            color: #C4C4C4;
+                            font-family: Roboto;
+                            font-size: 9px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .width__text__2{
+                            color: var(--text-color, #414141);
+                            font-family: Roboto;
+                            font-size: 9px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+                .add__to__card{
+                    width: 223px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    background: var(--main-color, #245462);
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
